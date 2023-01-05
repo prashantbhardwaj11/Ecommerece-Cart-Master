@@ -1,0 +1,36 @@
+.btnWrapper {
+  justify-content: space-between;
+}
+
+.card {
+  width: 28%;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 771px) {
+  .card {
+    width: 40%;
+  }
+  .btnWrapper {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 427px) {
+  .card {
+    width: 100%;
+    height: 50%;
+    margin: 4px;
+    padding:0;
+  }
+  .btnWrapper button {
+   width:105px;
+   height: 38px;
+   margin: 0;
+   padding: 0;
+  }
+  .btnWrapper button span {
+   font-size: 15px;
+   
+   }
+}

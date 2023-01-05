@@ -1,0 +1,11 @@
+.filterContainer{
+  background-color:aliceblue;
+  height:auto;
+  width: auto;
+  margin-top:30px;
+}
+.text{
+  font-size:14px;
+  font-weight:bold;
+  margin-left: 5px;
+}

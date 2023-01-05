@@ -1,0 +1,14 @@
+.productcontainer {
+  background-color: rgb(254, 255, 238);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 425px) {
+  .productcontainer {
+    background-color: rgb(254, 255, 238);
+  }
+}
